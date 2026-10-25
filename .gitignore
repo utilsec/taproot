@@ -1,0 +1,26 @@
+# MAC vendor databases: fetched with `python taproot.py --update-oui`,
+# not redistributed with this repo
+oui.csv
+oui.txt
+manuf
+maclookup.csv
+mac-vendors-export.csv
+
+# Captures and TAPROOT output: they can hold process values, credentials and
+# network topology, so they never belong in a public repo
+*.pcap
+*.pcapng
+*.pcap.gz
+*.pcapng.gz
+*.cap
+taproot_*.csv
+taproot_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
